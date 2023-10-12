@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Clean_Architecture_MVVMC_Clean_Architecture_MVVMCUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Clean_Architecture_MVVMC_Clean_Architecture_MVVMCUITests
+@end

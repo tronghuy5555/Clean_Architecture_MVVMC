@@ -1,0 +1,6 @@
+framework module Pods_Clean_Architecture_MVVMC_Clean_Architecture_MVVMCUITests {
+  umbrella header "Pods-Clean_Architecture_MVVMC-Clean_Architecture_MVVMCUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
