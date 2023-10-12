@@ -21,6 +21,7 @@
 		11B42E042AD7FEEE00E83190 /* gen_resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 11B42E032AD7FEEE00E83190 /* gen_resources.sh */; };
 		11B42E082AD7FFEF00E83190 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B42E062AD7FFEF00E83190 /* XCAssets+Generated.swift */; };
 		11B42E092AD7FFEF00E83190 /* Localizable + Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B42E072AD7FFEF00E83190 /* Localizable + Generated.swift */; };
+		11B42E0E2AD802AD00E83190 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 11B42E0D2AD802AD00E83190 /* .gitignore */; };
 		9A61B2B86C08BE3926C49F21 /* Pods_Clean_Architecture_MVVMC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309E4FF10794846790E10EA5 /* Pods_Clean_Architecture_MVVMC.framework */; };
 		D24189EAB48C9D4A93A0F454 /* Pods_Clean_Architecture_MVVMCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568EBFD458EE2219BBD9F3B9 /* Pods_Clean_Architecture_MVVMCTests.framework */; };
 		FDD202AC2A349BC04366BBF2 /* Pods_Clean_Architecture_MVVMC_Clean_Architecture_MVVMCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BF82AECEB2CA1397107ACF /* Pods_Clean_Architecture_MVVMC_Clean_Architecture_MVVMCUITests.framework */; };
@@ -62,6 +63,7 @@
 		11B42E032AD7FEEE00E83190 /* gen_resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = gen_resources.sh; sourceTree = "<group>"; };
 		11B42E062AD7FFEF00E83190 /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
 		11B42E072AD7FFEF00E83190 /* Localizable + Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Localizable + Generated.swift"; sourceTree = "<group>"; };
+		11B42E0D2AD802AD00E83190 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		309E4FF10794846790E10EA5 /* Pods_Clean_Architecture_MVVMC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clean_Architecture_MVVMC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		568EBFD458EE2219BBD9F3B9 /* Pods_Clean_Architecture_MVVMCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clean_Architecture_MVVMCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF4E85D72198F5E60F80B29 /* Pods-Clean_Architecture_MVVMC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean_Architecture_MVVMC.release.xcconfig"; path = "Target Support Files/Pods-Clean_Architecture_MVVMC/Pods-Clean_Architecture_MVVMC.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		11B42DBD2AD7FC2100E83190 = {
 			isa = PBXGroup;
 			children = (
+				11B42E0D2AD802AD00E83190 /* .gitignore */,
 				11B42E002AD7FEB500E83190 /* scripts */,
 				11B42DFE2AD7FE8700E83190 /* swiftgen.yml */,
 				11B42DC82AD7FC2100E83190 /* Clean_Architecture_MVVMC */,
@@ -313,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B42E0E2AD802AD00E83190 /* .gitignore in Resources */,
 				11B42E042AD7FEEE00E83190 /* gen_resources.sh in Resources */,
 				11B42DD62AD7FC2300E83190 /* LaunchScreen.storyboard in Resources */,
 				11B42DFF2AD7FE8700E83190 /* swiftgen.yml in Resources */,
