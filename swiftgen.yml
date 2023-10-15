@@ -15,7 +15,7 @@
      - Localizable/en.lproj
    outputs:
      - templateName: structured-swift5
-       output: Localizable + Generated.swift
+       output: Localizable+Generated.swift
 
 ## Generate constants for your Assets Catalogs, including constants for images, colors, ARKit resources, etc.
 ##   This example also shows how to provide additional parameters to your template to customize the output.
