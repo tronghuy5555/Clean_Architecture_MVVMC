@@ -1,16 +1,48 @@
 PODS:
+  - Alamofire (5.8.0)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
   - SwiftGen (6.6.2)
+  - Swinject (2.0.0)
+  - Swinject-CodeGen (2.0.0):
+    - Swinject (~> 2.0.0)
+  - SwinjectStoryboard (1.1.1):
+    - Swinject (~> 2.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.8)
+  - RxCocoa (~> 6.6)
+  - RxSwift (~> 6.6)
   - SwiftGen (~> 6.0)
+  - Swinject
+  - Swinject-CodeGen
+  - SwinjectStoryboard
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SwiftGen
+    - Swinject
+    - Swinject-CodeGen
+    - SwinjectStoryboard
 
 SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
   SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
+  Swinject: 2e964a80d70ab09b3949c99032711f89147bfd60
+  Swinject-CodeGen: 554ab69b516fb8c3b733d25995b8bef1bf94d237
+  SwinjectStoryboard: 4c71c25f312322844d39ee06f0f523db7b9b10a3
 
-PODFILE CHECKSUM: 9dd59568980adaa071d096dd8446192111a00c17
+PODFILE CHECKSUM: a8ef82e99cf650b9659d311ab0585ebc1bc5e0b5
 
 COCOAPODS: 1.13.0
