@@ -13,17 +13,19 @@ struct LoginUserRequest {
     var password: String
 }
 
-class LoginUserUseCase : UseCase {
+protocol LoginUserUseCaseProtocol:
+    UseCase
+    where USRequest == LoginUserRequest,
+          USResponse == ProfileEntity {
+}
+
+class LoginUserUseCase : LoginUserUseCaseProtocol {
   
     let authRepository: AuthenticationRepository
     
     init(authRepository: AuthenticationRepository) {
         self.authRepository = authRepository
     }
-    
-    typealias USRequest = LoginUserRequest
-    
-    typealias USResponse = ProfileEntity
     
     func execute(request: LoginUserRequest) -> Observable<ProfileEntity> {
         return authRepository.login(userName: request.userName, password: request.password).asObservable()

@@ -20,6 +20,6 @@ class GetLocalAccessTokenUseCase: UseCase {
     }
     
     func execute(request: Void? = nil) -> Observable<String> {
-        return
+        return authRepository.getLocalAccessToken().asObservable()
     }
 }

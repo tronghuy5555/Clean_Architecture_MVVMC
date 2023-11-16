@@ -8,6 +8,6 @@
 import Foundation
 
 
-struct ProfileEntity: Codable {
+struct ProfileEntity: Codable, Equatable {
     
 }

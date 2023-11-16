@@ -8,12 +8,10 @@
 import Foundation
 import RxSwift
 
-protocol UseCase {
-        
+typealias UseCaseExecutionDelegate<Request,Response> = (Request) -> Observable<Response>
+
+protocol UseCase: AnyObject {
     func execute(request : USRequest) -> Observable<USResponse>
-    
     associatedtype USRequest
     associatedtype USResponse
-    
-
 }

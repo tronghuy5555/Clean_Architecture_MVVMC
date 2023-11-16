@@ -36,7 +36,6 @@ class APIDataSourceImpl : APIDataSource {
                            parameters: parameters,
                            interceptor: Interceptor()
                 ).response { response in
-                    let result = response.result
                     if (response.response?.statusCode == 200) {
                         let decoder = JSONDecoder()
                         guard let data = response.data,

@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import RxSwift
 
 protocol AppNavigation {
     func navigateToAuthScreen()
@@ -24,9 +25,8 @@ class AppCoordinator : BaseCoordinator {
         super.init(navigationController: navigationController)
     }
     
-    
     func start() {
-        self.appViewModel.userSessionStatus.execute().subscribe(
+        self.appViewModel.userSessionStatusStream.observe(on: MainScheduler()).subscribe(
             onNext: {[weak self] status in
                 switch (status) {
                 case .authenticated:

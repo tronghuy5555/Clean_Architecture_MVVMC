@@ -6,19 +6,19 @@
 //
 
 import Foundation
+import RxSwift
+import RxCocoa
 
 protocol AuthenticationDelegate : AnyObject {
     func checkAuthentication()
 }
 
 class AuthViewModel : BaseViewModel {
-    
-    let getUserSessionStatusUseCase: GetUserSessionStatusUseCase
     weak var authDelegate: AuthenticationDelegate?
-    
-    init(getUserSessionStatusUseCase: GetUserSessionStatusUseCase) {
-        self.getUserSessionStatusUseCase = getUserSessionStatusUseCase
+   
+    override init() {
         super.init()
     }
-    
 }
+
+
